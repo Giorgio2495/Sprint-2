@@ -1,0 +1,100 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@600&display=swap%27");
+
+body {
+  font-family: "Poppins", sans-serif;
+  background-color: rgb(255, 120, 121, 255);
+  background-image: url(./imagenrosada.css.png); 
+  background-size: cover;
+  padding: 0;
+  margin: 0;
+}
+
+.general {
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  gap: 50px;
+}
+
+.contenidosinput {
+  width: 100%;
+  margin-top: 10px;
+  display: flex;
+  flex-direction: column;
+  background: rgb(245, 239, 232);
+  border-radius: 10px;
+}
+
+.formulario {
+  display: flex;
+  flex-direction: column;
+}
+
+h1 {
+  color: white;
+}
+.morado {
+  width: 95%;
+  color: white;
+  padding: 10px;
+  background: rgb(95, 84, 165, 255);
+  border-radius: 10px;
+}
+.boton {
+  background: rgb(58, 203, 139, 255);
+  border: 0cm;
+  padding: 10px 20px;
+  color: white;
+  border-radius: 5px;
+}
+.boton:hover {
+  cursor: pointer;
+  background-color: rgb(10, 10, 19);
+}
+input {
+  border: 1px solid gray;
+  border-radius: 2px;
+  margin: 10px;
+  padding: 10px;
+}
+.text1 {
+  font-size: 10px;
+  color: gray;
+}
+.text2 {
+  color: rgb(223, 87, 87);
+}
+.enunciado {
+  padding: 2%;
+  margin: 5rem;
+  text-align: center;
+  justify-content: center;
+}
+.relleno {
+  padding: 1rem;
+  margin: 5rem;
+  text-align: center;
+  color: white;
+  text-align: left;
+  flex: 2;
+}
+
+@media screen and (max-width: 800px) {
+  .general {
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    margin: 0%;
+    padding: 0%;
+    width: 100%;
+    height: 100%;
+  }
+  .relleno {
+    margin: 5%;
+    text-align: center;
+  }
+  .enunciado {
+    margin-top: 1%;
+  }
+}
