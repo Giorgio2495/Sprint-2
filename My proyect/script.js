@@ -10,7 +10,7 @@ inputs.forEach(input => {
 
 inputs.forEach(input => {
     input.addEventListener("invalid", () => {
-        input.setCustomValidity("Error...!!!")
+        input.setCustomValidity("ESTE CAMPO NO PUEDE ESTAR VACIO")
     })
 })
 
